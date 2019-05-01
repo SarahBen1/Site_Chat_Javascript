@@ -1,0 +1,111 @@
+.body{
+	background: #F1F1F1;
+}
+
+.bg-light, header{
+	background: #061339 !important;
+}
+.navbar-brand{
+	color: #FFF !important;
+	font-family: 'Merienda', cursive;
+}
+.titleSection{
+	background: #B9CDFF; 
+	background:url(../css/background.jpg);
+
+}
+h1{
+	font-family: 'Merienda', cursive;
+	color: #FFF;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align:center;
+	padding: 50px;
+	font-size:38px;
+}
+/********************** SECTION DU HAUT **********************/
+.hightSection{
+	padding: 20px 0;
+}
+
+/***** FORMULAIRE *****/
+form{
+	padding: 10px;
+}
+.questions{
+	padding: 10px 10px;
+	border:2px solid #d3d3d3;
+	border-radius: 10px;
+}
+h2{
+	font-family: 'Merienda', cursive;
+	color: #061339;
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+}
+label{
+	font-weight: bold;
+	font-size:20px;
+}
+textarea{
+	height: 200px !important;
+}
+.btn{
+	width: 100%;
+	background: #9bd06b;
+	border: silver;
+}
+/* Cas d'erreur */
+.errorBorder{
+	border: 1px solid red;
+	border-radius: 3px;
+}
+/* Cas de succes*/
+.success{
+	color: #061339;
+	text-align:center;
+	padding:10px;
+	font-size:20px;
+}
+
+/***** SLIDER *****/
+.d-block{
+	padding-top: 20px;
+}
+
+/********************** SECTION DU BAS **********************/
+.lowSection{
+	background: #ddd;
+	padding: 10px;
+}
+h3{
+	font-family: 'Merienda', cursive;
+	padding: 15px 0;
+	color: #061339;
+}
+
+.lowSection p{
+	font-size:13px;
+}
+
+.divLogoChat{
+	/* background: red; */
+	text-align:center;
+}
+.logoChat{
+	background:#7885A5;
+	width: 100%;
+}
+
+.lowSection:hover img{
+	background:#061339;
+}
+/************************** FOOTER **************************/
+footer{
+	background:#061339; 
+	color: white;
+	text-align: right;
+	font-size:13px;
+}
+
